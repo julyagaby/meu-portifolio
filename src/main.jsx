@@ -4,6 +4,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './assets/template/Header.jsx'
 import Footer from './assets/template/Footer.jsx'
 import { Button } from 'react-bootstrap'
+import Home from './pages/home'
+import SobreMim from './pages/SobreMim.jsx';
+import Contato from './pages/Contato.jsx';
 
 import {
   createBrowserRouter,
@@ -11,10 +14,7 @@ import {
   Route,
   Link,
 } from "react-router-dom";
-import Home from './pages/Home.jsx';
-import SobreMim from './pages/SobreMim.jsx';
-import Contato from './pages/Contato.jsx';
-import './custom.css'
+
 const router = createBrowserRouter([
   {
     path: "/",

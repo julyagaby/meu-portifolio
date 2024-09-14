@@ -28,6 +28,17 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+      <div className="conatiner">
+        <div className="sidebar">
+          <div className= " foto">
+            <img src='foto1.jpg'/>
+          </div>
+          <div className=" contato">
+            <h2> Contato</h2>
+            <p>📞 (19) 98177-2340</p>
+          </div>
+          </div>
+      </div>
     </>
   )
 }

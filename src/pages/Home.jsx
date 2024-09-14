@@ -3,7 +3,10 @@ import React from "react";
 function Home(){
     return(
         <>
-       conteudo da home
+        
+           <img src="foto1.jpg"/>
+          <> Julya Gabrielly Rodrigues Gonçalves</>
+          <hr/>
         </>
     )
 }
